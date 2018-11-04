@@ -21,7 +21,7 @@ option confirm off
 echo.
 echo ----- Sycnhronizing files from SFTP to the local -----
 echo.
-winscp.com /command "open sftp://<sftp_username>:<sftp_password>@<sftp_serverIP>:<sftp_port> -hostkey=""ssh key""" "synchronize local C:\Scripts /<folder_in_sftp>" "exit"
+winscp.com /command "open sftp://<sftp_username>:<sftp_password>@<sftp_serverIP>:<sftp_port> -hostkey=""ssh-dss 1024 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx""" "synchronize local C:\Scripts /<folder_in_sftp>" "exit"
 echo.
 echo.
 echo ~~~~~ Files Copied Successfully ~~~~~
